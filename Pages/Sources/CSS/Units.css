@@ -117,7 +117,11 @@
     .mode:hover{
       cursor: pointer;
     }
-
+    .alertify{
+      font-family: Roboto, sans-serif;
+      color: beige;
+      background-color: darkslategrey;
+    }
     .alertify .ajs-header {
       background-color: darkslateblue;
       color: crimson;
@@ -125,11 +129,6 @@
       border-radius: 6px 6px 0 0;
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 30px;
-    }
-    .alertify .ajs-body {
-      font-family: Roboto, sans-serif;
-      color: beige;
-      background-color: darkslategrey;
     }
     .alertify .ajs-footer {
       background-color: darkslateblue;
