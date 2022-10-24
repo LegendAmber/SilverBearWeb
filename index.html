@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-  
-  <head> 
+
+  <head>
     <link rel="icon" href="Pages/Sources/Images/BeFunky-photo.jpg">
     <link rel="stylesheet" href="Pages/Sources/CSS/app.css">
     <title>Silver Bear Updates</title>
@@ -11,22 +11,26 @@
     <link rel="stylesheet" href="css/alertify.min.css">
     <link rel="stylesheet" href="css/themes/bootstrap.min.css">
     <link rel="stylesheet" href="Pages/Sources/CSS/Units.css">
-    <header style="color: white;" >
+    <header style="color: white;">
       <p style="color: black; display: inline; font-size: 30px">Home</p>
       <a href="Pages/game.html" style="font-size: 30px;">Game</a>
       <a href="Pages/meeting.html" style="font-size: 30px;">Meetings</a>
-      <a href="Pages/user.html"><img id="login" class="login" align="right" src="Login-0.jpg"></a>
+      <a href="Pages/user.html"><img id="login" class="login" align="right"
+          src="Login-0.jpg"></a>
     </header>
   </head>
-    <body>
-      <button onclick="alt()">Click</button>
-    </body>
+  <body>
+  </body>
   <footer style="background-color: darkslategray;">
-    <p style="color: white;text-align: center; margin-top: 20px">&#9432; Last Updated: 9/27/22</p>
+    <p style="color: white;text-align: center; margin-top: 20px">&#9432; Last
+      Updated: 9/27/22</p>
   </footer>
   <script>
-    function alt(){
+        function alt(){
     alertify.alert('Warning', 'Please return later when website is up to date.').setting({'movable': false, transition: 'flipx'}).show();
+    }
+    if (document.readyState === "interactive"){
+      alt();
     }
   </script>
 </html>
