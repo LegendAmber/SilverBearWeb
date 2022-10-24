@@ -117,3 +117,11 @@
     .mode:hover{
       cursor: pointer;
     }
+
+    .alertify .ajs-header {
+      color: beige;
+      border-bottom: 1px solid navy;
+      border-radius: 6px 6px 0 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 30px;
+    }
