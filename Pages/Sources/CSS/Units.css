@@ -129,9 +129,10 @@
     .alertify .ajs-body {
       font-family: Roboto, sans-serif;
       color: beige;
+      background-color: darkslategrey;
     }
     .alertify .ajs-footer {
-      background-color: darkslategray;
+      background-color: darkslateblue;
       padding: 15px;
       border-top: 1px solid #e5e5e5;
       border-radius: 0 0 6px 6px;
