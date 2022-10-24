@@ -13,13 +13,14 @@
     <link rel="stylesheet" href="Pages/Sources/CSS/Units.css">
     <header style="color: white;">
       <p style="color: black; display: inline; font-size: 30px">Home</p>
-      <a href="Pages/game.html" style="font-size: 30px;">Game</a>
-      <a href="Pages/meeting.html" style="font-size: 30px;">Meetings</a>
-      <a href="Pages/user.html"><img id="login" class="login" align="right"
+      <a onclick="alt()" style="font-size: 30px;">Game</a>
+      <a onclick="alt()" style="font-size: 30px;">Meetings</a>
+      <a onclick="alt()"><img id="login" class="login" align="right"
           src="Login-0.jpg"></a>
     </header>
   </head>
   <body>
+    <button onclick="alt()">Issues?</button>
   </body>
   <footer style="background-color: darkslategray;">
     <p style="color: white;text-align: center; margin-top: 20px">&#9432; Last
@@ -28,9 +29,6 @@
   <script>
         function alt(){
     alertify.alert('Warning', 'Please return later when website is up to date.').setting({'movable': false, transition: 'flipx'}).show();
-    }
-    if (document.readyState === "interactive" || document.readyState === "complete"){
-      alt();
     }
   </script>
 </html>
