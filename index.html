@@ -29,7 +29,7 @@
         function alt(){
     alertify.alert('Warning', 'Please return later when website is up to date.').setting({'movable': false, transition: 'flipx'}).show();
     }
-    if (document.readyState === "interactive"){
+    if (document.readyState === "interactive" || document.readyState === "complete"){
       alt();
     }
   </script>
