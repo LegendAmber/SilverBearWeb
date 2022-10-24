@@ -19,14 +19,14 @@
     </header>
   </head>
     <body>
-
+      <button onclick="alt()">Click</button>
     </body>
   <footer style="background-color: darkslategray;">
     <p style="color: white;text-align: center; margin-top: 20px">&#9432; Last Updated: 9/27/22</p>
   </footer>
   <script>
-    document.onload = e => {
-    alertify.alert('Hello World');
+    function alt(){
+    alertify.alert('This is an alert message', 'this is some text.', function(){ alertify.success('Ok'); });
     }
   </script>
 </html>
