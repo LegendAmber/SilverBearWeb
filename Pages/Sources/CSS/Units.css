@@ -96,7 +96,8 @@
     }
 
     body {
-      background-color: black;
+      background: rgb(96,70,105);
+      background: linear-gradient(0deg, rgba(96,70,105,1) 0%, rgba(55,72,159,1) 100%);
       margin: 0px;
       font-family: 'Times New Roman', Times, serif;
       color: aliceblue;
