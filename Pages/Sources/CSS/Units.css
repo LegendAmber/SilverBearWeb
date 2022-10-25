@@ -92,11 +92,11 @@
 
     footer {
       background: linear-gradient(0deg, rgba(43,45,51,1) 0%, rgba(68,90,200,1) 100%);
-      box-shadow: 0 50vh 0 50vh linear-gradient(0deg, rgba(43,45,51,1) 0%, rgba(68,90,200,1) 100%);
+      padding-bottom: 10v
     }
 
     body {
-      background: linear-gradient(0deg, rgba(96,70,105,1) 0%, rgba(55,72,159,1) 100%);
+      background: #445ac8;
       margin: 0px;
       font-family: 'Times New Roman', Times, serif;
       color: aliceblue;
