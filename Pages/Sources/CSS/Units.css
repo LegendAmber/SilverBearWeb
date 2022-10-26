@@ -67,10 +67,6 @@
       background-color: rgba(226, 180, 89, 0.5);
     }
 
-    footer {
-      box-shadow: 0 50vh 0 50vh darkslategray;
-    }
-
     a {
       color: white;
       font-size: 30px;
@@ -92,7 +88,7 @@
 
     footer {
       background: linear-gradient(0deg, rgba(43,45,51,1) 0%, rgba(68,90,200,1) 100%);
-      padding-bottom: 30vmax;
+      padding-bottom: 10%;
       border-top-style: solid;
       border-top-width: 5px;
       border-top-color: rgba(50, 72, 132, 0);
